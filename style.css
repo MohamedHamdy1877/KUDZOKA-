@@ -22,6 +22,7 @@ nav .right-nav {
     display: flex;
     margin-right: 430px;
     text-decoration: none;
+    color: black;
 }
 
 nav .right-nav img {
@@ -35,6 +36,7 @@ nav .right-nav div {
 
 nav .right-nav div a {
     margin: 0 20px;
+    color: black;
 }
 
 nav .right-nav div .home {
