@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* start navbar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e5f4fb;
+    width: 100%;
+}
+@media (max-width:1200px) {
+    body {
+        width: 100%;
+    }
+    
+}
+
+nav .right-nav {
+    display: flex;
+    margin-right: 430px;
+}
+
+nav .right-nav img {
+    width: 90px;
+    height: 60px;
+}
+
+nav .right-nav div {
+    margin-top: 20px;
+}
+
+nav .right-nav div a {
+    margin: 0 20px;
+}
+
+nav .right-nav div .home {
+    border-bottom: 2px solid #734c9d;
+}
+
+nav .left-nav {
+    margin: 20px 40px;
+    background-color: white;
+    border-radius: 50px;
+    border: 5px solid transparent;
+    padding: 5px;
+    background-image: url(images/login_button_bg.png);
+    text-decoration: none;
+    width: 110px;
+    text-align: center;
+}
+
+/* end navbar */
+
+/* start first section */
+.firstsec {
+    height: 1200px;
+    background-image: url(images/blue_bg.png);
+    background-size: 1520px;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow-x: hidden;
+
+}
+
+.firstsec .fff {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+
+}
+
+.firstsec .fff .left-side {
+    margin-top: 250px;
+    margin-left: 140px;
+}
+
+.firstsec .fff .left-side h1 {
+    font-weight: 400;
+    font-weight: bold;
+    font-size: 46px;
+}
+
+.firstsec .fff .left-side h1 span {
+    color: blueviolet;
+    font-weight: bold;
+
+}
+
+.firstsec .fff .left-side p {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.firstsec .fff .right-side {
+    margin-right: 100px;
+}
+
+.firstsec .bg {
+    width: 750px;
+    position: relative;
+
+}
+
+.firstsec .man {
+    width: 310px;
+    position: absolute;
+    right: 380px;
+    top: 40px;
+    z-index: 1;
+}
+
+.firstsec .cloud {
+    width: 450px;
+    position: absolute;
+    right: 300px;
+    top: 450px;
+    opacity: 1;
+    z-index: 1;
+}
+
+/* end first section  */
+/* start waves */
+.waves {
+    width: 300px;
+    margin-top: -630px;
+    margin-left: -850px;
+}
+
+/* end waves */
+
+.no2at {
+    width: 500px;
+    margin-left: 250px;
+    position: absolute;
+    z-index: -2;
+}
+
+.secondsec {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 100vh;
+
+}
+
+.secondsec .first {
+    text-align: center;
+    margin-left: 120px;
+    position: absolute;
+    top: 90px;
+}
+
+.secondsec .second {
+    text-align: center;
+    margin-right: 250px;
+    position: absolute;
+    left: 720px;
+    top: 320px;
+}
+
+/* end secondsec */
+
+
+/* start thirdsec */
+.thirdsec {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 90px;
+    right: 90px;
+
+}
+
+.thirdsec .why {
+    position: relative;
+
+}
+
+.thirdsec .why div {
+    text-align: center;
+    position: absolute;
+    left: 150px;
+    bottom: 270px;
+    color: white;
+    font-size: 26px;
+}
+
+.thirdsec .why p {
+    margin-right: 90px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.thirdsec .discount {
+    position: relative;
+    right: -190px;
+
+}
+
+/* end thirdsec */
+
+/* start lastsec */
+.lastsec {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    margin-top: 150px;
+
+}
+
+.lastsec .details {
+    position: relative;
+    bottom: 180px;
+}
+
+.lastsec .details h1 {
+    color: #989898;
+}
+
+.lastsec .details p {
+    color: #bebebe;
+    font-size: 22px;
+}
+
+.lastsec .details .paragraph {
+    text-align: center;
+}
+
+
+/* end lastsec */
+
+/* start footer */
+footer {
+    background-image: url(images/Group\ 1131.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-left: -100px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+footer .leftside {
+    margin-top: 20px;
+    position: absolute;
+    left: 230px;
+    bottom: 0px;
+
+}
+
+footer .leftside .buttom {
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+
+}
+
+footer .leftside .buttom .apple {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+footer .leftside .buttom .apple img{
+    height:40px;
+    position: relative;
+    bottom:  10px;
+}
+footer .leftside .buttom .apple .app{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+    right:  10px;
+    bottom: 10px;
+}
+footer .leftside .buttom .apple p {
+    position: relative;
+    top: 15px;
+    left: 4px;
+    margin-top: -12px;
+    font-size: 12px;
+}
+
+footer .leftside .buttom .play-store {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+footer .leftside .buttom .play-store img{
+    height:36px;
+    position: relative;
+    bottom:  10px;
+}
+
+footer .leftside .buttom .play-store .app {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+    right:  10px;
+    bottom: 10px;
+}
+footer .leftside .buttom .play-store .app p{
+    position: relative;
+    top: 15px;
+    margin-top: -12px;
+    font-size: 12px; 
+}
+
+footer .leftside .social a {
+    margin-right: 18px;
+
+}
+
+footer .leftside .linkat {
+    margin-top: 10px;
+
+}
+
+footer .leftside .linkat a {
+    margin-right: 70px;
+    color: white;
+    text-decoration: none;
+}
+
+footer .sora img {
+    position: absolute;
+    width: 680px;
+    left: 820px;
+    top: 148px;
+}
+@media (max-width:1200px) {
+    footer{
+       width: 100%;
+    }
+    
+}
+
+/* end footer */
