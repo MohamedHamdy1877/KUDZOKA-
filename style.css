@@ -21,6 +21,7 @@ nav {
 nav .right-nav {
     display: flex;
     margin-right: 430px;
+    text-decoration: none;
 }
 
 nav .right-nav img {
