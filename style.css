@@ -18,32 +18,32 @@ nav {
     
 }
 
-nav .right-nav {
+nav .left-nav {
     display: flex;
     margin-right: 430px;
     text-decoration: none;
     color: black;
 }
 
-nav .right-nav img {
+nav .left-nav img {
     width: 90px;
     height: 60px;
 }
 
-nav .right-nav div {
+nav .left-nav div {
     margin-top: 20px;
 }
 
-nav .right-nav div a {
+nav .left-nav div a {
     margin: 0 20px;
     color: black;
 }
 
-nav .right-nav div .home {
+nav .left-nav div .home {
     border-bottom: 2px solid #734c9d;
 }
 
-nav .left-nav {
+nav .right-nav {
     margin: 20px 40px;
     background-color: white;
     border-radius: 50px;
@@ -54,7 +54,11 @@ nav .left-nav {
     width: 110px;
     text-align: center;
 }
-
+nav .right-nav a{
+    text-decoration: none;
+    color: black;
+    
+}
 /* end navbar */
 
 /* start first section */
